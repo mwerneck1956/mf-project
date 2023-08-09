@@ -10,7 +10,6 @@ export default () => {
     <div>
       <StylesProvider>
         <BrowserRouter>
-          <h1>changed something</h1>
           <Switch>
             <Route exact path="/pricing" component={Pricing} />
             <Route exact path="/" component={Landing} />
